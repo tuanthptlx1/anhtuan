@@ -151,7 +151,7 @@ function logoutUser() {
 </head>
 <body>
 <header>
-<h1> XIN CHAO</h1>
+<h1>NGUYỄN ANH TUẤN-MSV:22810310003<br></h1>
 </header>
 <section>
 <div id="loginForm">
