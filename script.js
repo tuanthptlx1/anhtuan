@@ -54,7 +54,7 @@ function logoutUser() {
     </script>
     <style>
     body {
-        background-color:blue;
+        background-color:antiquewhite;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -70,7 +70,7 @@ function logoutUser() {
         max-width: 400px;
         margin: 20px auto;
         padding: 20px;
-        border: 1px solid #ddd;
+        border: 3px solid #ddd;
     }
     
     form {
@@ -83,6 +83,7 @@ function logoutUser() {
     }
     
     input,button{
+        border-radius: 40px;
         margin-bottom: 10px;
         padding: 10px;
     }
@@ -163,7 +164,7 @@ function logoutUser() {
         <label for="password">Mật khẩu:</label>
         <input type="password" id="password" name="password" required>
 
-        <button type="submit" >Đăng Nhập</button>
+       <center><button type="submit" style="width:50%; margin-top: 10px; " >Đăng Nhập</button></center>
     </form>
 </div>
 
