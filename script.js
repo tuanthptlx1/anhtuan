@@ -166,7 +166,7 @@ function logoutUser() {
 
        <center><button type="submit" style="width:50%; margin-top: 10px; " >Đăng Nhập</button></center>
 
-       <h2>tk:1 mk:1</h2>
+       <h2 style="color:red">TK:1 MK:1</h2>
     </form>
 </div>
 
