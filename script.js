@@ -155,7 +155,7 @@ function logoutUser() {
 </header>
 <section>
 <div id="loginForm">
-    <h2>NGUYEN ANH TUAN</h2>
+    <h2>Đăng Nhập</h2>
     <form onsubmit="return loginUser()">
         <label for="username">Tên người dùng:</label>
         <input type="text" id="username" name="username" required>
@@ -168,8 +168,12 @@ function logoutUser() {
 </div>
 
 <div id="loggedInContent" style="display: none;">
-    <!-- Nội dung sau khi đăng nhập sẽ được hiển thị ở đây -->
     <p>Xin chào, <span id="loggedInUser"></span>!</p>
+    <h2>
+        Họ tên :NGUYỄN ANH TUẤN<br>
+        Mã SV 22810310003<br>
+        Lớp D17CNPM1<br>
+    </h2>
     <button onclick="logoutUser()" >Đăng Xuất</button>
 </div>
 </section>
