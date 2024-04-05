@@ -15,7 +15,7 @@ const html = `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HELLO</title>
     <link rel="stylesheet" href="style.css">
     <script>
    function loginUser() {
@@ -155,7 +155,7 @@ function logoutUser() {
 </header>
 <section>
 <div id="loginForm">
-    <h2>Đăng Nhập</h2>
+    <h2>NGUYEN ANH TUAN</h2>
     <form onsubmit="return loginUser()">
         <label for="username">Tên người dùng:</label>
         <input type="text" id="username" name="username" required>
