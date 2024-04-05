@@ -22,7 +22,7 @@ const html = `<!DOCTYPE html>
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if (username === '1' && password === '1) {
+    if (username === '1' && password === '1') {
         document.getElementById('loggedInContent').style.display = 'block';
         document.getElementById('loggedInUser').innerText = username;
 
@@ -165,9 +165,10 @@ function logoutUser() {
         <input type="password" id="password" name="password" required>
 
        <center><button type="submit" style="width:50%; margin-top: 10px; " >Đăng Nhập</button></center>
-
-       <h2 style="color:red">TK:1 MK:1</h2>
     </form>
+    <div style="color: red;">
+    TK :1 MK:1
+    </div>
 </div>
 
 <div id="loggedInContent" style="display: none;">
